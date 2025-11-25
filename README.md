@@ -31,7 +31,7 @@ structure:
 │   ├── age_clutch_analysis.py
 │   └── improvement_analysis.py
 │
-├── visualisations.tables/
+├── visualisation.table/
 │   ├── surface_serve_strength_boxplot.png
 │   └── surface_dominance_summary.csv
 │  
