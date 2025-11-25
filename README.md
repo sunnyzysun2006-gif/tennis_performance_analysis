@@ -27,10 +27,14 @@ structure:
 │   └── data_cleaning.sql
 │
 ├── python.analysis/
-│   ├── service_surface_analysis.ipynb
-│   ├── age_clutch_analysis.ipynb
-│   └── improvement_analysis.ipynb
+│   ├── service_surface_analysis.py
+│   ├── age_clutch_analysis.py
+│   └── improvement_analysis.py
 │
+├── visualisations.tables/
+│   ├── surface_serve_strength_boxplot.png
+│   └── surface_dominance_summary.csv
+│  
 └── README.md
 
 # Cleaning and filtering (SQL)
@@ -71,6 +75,7 @@ Assesses whether older players (more exprienced) perform better under pressure u
 => No significant correlation was found between age and clutch performer,
    However the most clutch was found from one of the most exprienced player on tour:
 => the overall best clutch performer (highest mean BPS% and BPC%) is Novak Djokovic -- our Year End number 1!
+=> in addition we found the best clutch performer when facing a break point was Jarry Nicolas and the Taylor Fritz when converting one.
 
 3. Most Improved Player
 Looks for the player with winning rate improving the most from first half of the seaon to the second.
